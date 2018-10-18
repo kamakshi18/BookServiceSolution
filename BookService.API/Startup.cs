@@ -32,6 +32,8 @@ namespace BookService.WebAPI
                 options => options.UseSqlServer(Configuration.GetConnectionString("BookService"))
                 );
             services.AddScoped<BookRepository>(); //to add book repository
+            services.AddScoped<AuthorRepository>();
+            services.AddScoped<PublisherRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
