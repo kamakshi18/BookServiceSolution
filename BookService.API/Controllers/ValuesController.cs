@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookService.API.Controllers
+namespace BookService.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
