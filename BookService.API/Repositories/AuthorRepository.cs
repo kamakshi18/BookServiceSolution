@@ -34,7 +34,7 @@ namespace BookService.WebAPI.Repositories
         }
         public Author GetById(int id)
         {
-            return bookServiceContext.Authors.Where(p => p.Id == id).FirstOrDefault();
+            return bookServiceContext.Authors.FirstOrDefault(p => p.Id == id);
                
 
         }

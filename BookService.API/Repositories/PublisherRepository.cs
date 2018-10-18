@@ -22,7 +22,7 @@ namespace BookService.WebAPI.Repositories
         }
         public Publisher GetById(int id)
         {
-            return bookServiceContext.Publishers.Where(p => p.Id == id).FirstOrDefault();
+            return bookServiceContext.Publishers.FirstOrDefault(p => p.Id == id);
 
         }
     }
