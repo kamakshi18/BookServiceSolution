@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService.API", "BookService.API\BookService.API.csproj", "{9CBAD9A3-73B7-40CD-9CC3-B8B1A791283D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService.WebAPI", "BookService.API\BookService.WebAPI.csproj", "{9CBAD9A3-73B7-40CD-9CC3-B8B1A791283D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
